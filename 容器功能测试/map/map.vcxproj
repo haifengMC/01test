@@ -35,9 +35,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{f451d354-ddbd-4d67-9e53-c3f3f7a18d45}</ProjectGuid>
+    <ProjectGuid>{7b267227-3b2e-400d-b61d-7617c1514c47}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>map功能测试</RootNamespace>
+    <RootNamespace>map</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
@@ -59,7 +59,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <RemoteRootDir>~/c++/00代码测试</RemoteRootDir>
+    <RemoteRootDir>~/c++/00代码测试/01容器功能测试</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
