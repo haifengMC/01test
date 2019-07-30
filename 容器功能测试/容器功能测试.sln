@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "map", "map\map.vcxproj", "{7B267227-3B2E-400D-B61D-7617C1514C47}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02map", "map\map.vcxproj", "{7B267227-3B2E-400D-B61D-7617C1514C47}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "list", "list\list.vcxproj", "{F7E90544-4E76-47AC-B18F-7EC4CA39CD1D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01list", "list\list.vcxproj", "{F7E90544-4E76-47AC-B18F-7EC4CA39CD1D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "容器嵌套-时间轮", "容器嵌套-时间轮\容器嵌套-时间轮.vcxproj", "{DD276C9B-026E-4F11-8C68-4CE9C12B4E0A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03容器嵌套-时间轮", "容器嵌套-时间轮\容器嵌套-时间轮.vcxproj", "{DD276C9B-026E-4F11-8C68-4CE9C12B4E0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04multimap", "04multimap\04multimap.vcxproj", "{3E813851-94AF-4E4A-9D70-57C970950732}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,22 @@ Global
 		{DD276C9B-026E-4F11-8C68-4CE9C12B4E0A}.Release|x64.Build.0 = Release|x64
 		{DD276C9B-026E-4F11-8C68-4CE9C12B4E0A}.Release|x86.ActiveCfg = Release|x86
 		{DD276C9B-026E-4F11-8C68-4CE9C12B4E0A}.Release|x86.Build.0 = Release|x86
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|ARM.Build.0 = Debug|ARM
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|x64.ActiveCfg = Debug|x64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|x64.Build.0 = Debug|x64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|x86.ActiveCfg = Debug|x86
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Debug|x86.Build.0 = Debug|x86
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|ARM.ActiveCfg = Release|ARM
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|ARM.Build.0 = Release|ARM
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|ARM64.Build.0 = Release|ARM64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|x64.ActiveCfg = Release|x64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|x64.Build.0 = Release|x64
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|x86.ActiveCfg = Release|x86
+		{3E813851-94AF-4E4A-9D70-57C970950732}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
