@@ -35,15 +35,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7b267227-3b2e-400d-b61d-7617c1514c47}</ProjectGuid>
+    <ProjectGuid>{dd276c9b-026e-4f11-8c68-4ce9c12b4e0a}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>map</RootNamespace>
+    <RootNamespace>容器嵌套_时间轮</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
     <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
     <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
-    <ProjectName>02map</ProjectName>
+    <ProjectName>03容器嵌套-时间轮</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
