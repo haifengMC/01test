@@ -13,7 +13,7 @@ public:
 	mutable list<void*> buf;
 	list<void*>::iterator begUnit;
 	size_t begUnitCount, begOffset;
-	size_t size;
+	mutable size_t m_size;
 public:
 	ByteStream();
 	~ByteStream();
@@ -27,7 +27,7 @@ public:
 	//查看
 	void* peek(const size_t &pos) const;
 	//大小
-	int& size() const;
+	size_t& size() const;
 	//判空
 	bool empty();
 

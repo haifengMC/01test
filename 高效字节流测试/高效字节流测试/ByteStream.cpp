@@ -10,7 +10,7 @@ ByteStream::ByteStream()
 	begUnit = buf.begin();
 	begUnitCount = 0;
 	begOffset = 0;
-	this->size = 0;
+	m_size = 0;
 }
 
 
@@ -41,7 +41,7 @@ int ByteStream::write(const void * const & buf, const size_t & byteSize)
 	{
 		memcpy(*begUnit + begOffset, buf, byteSize);
 		begOffset += offset;
-		this->size += byteSize;
+		m_size += byteSize;
 		return byteSize;
 	}
 
@@ -63,7 +63,7 @@ int ByteStream::write(const string & buf, const size_t & byteSize)
 
 void * ByteStream::peek(const size_t & pos) const
 {
-	if (pos > this->size)
+	if (pos > m_size)
 	{
 		return NULL;
 	}
@@ -80,12 +80,12 @@ void * ByteStream::peek(const size_t & pos) const
 	return (char*)*posUnit + index;
 }
 
-int & ByteStream::size() const
+size_t & ByteStream::size() const
 {
-	return this->size;
+	return m_size;
 }
 
 bool ByteStream::empty()
 {
-	return 0 == this->size;
+	return 0 == m_size;
 }
