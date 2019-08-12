@@ -1,37 +1,18 @@
 #include <iostream>
 
 using namespace std;
-struct A
-{
-	A() {};
-	virtual ~A()=0;
-	int i;
-	float f;
 
-}; 
-struct C
+union U
 {
-
-};
-struct B
-{
-	B();
-	~B();
-
-	union U
-	{
-		int n;
-		float ff;
-		C c;
-	} u;
-};
-B::B() {}
-B::~B() {}
+	int n;
+	float ff;
+} u;
 
 int main()
 {
 	cout << "hello" << endl;
-	B b = { 1 };
+	u = { .ff = 1.1 };
+	cout << u.n << endl;
 
 	return 0;
 }
